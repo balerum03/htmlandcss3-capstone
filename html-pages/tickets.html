@@ -44,8 +44,63 @@
       </div>
     </nav>
   </header>
-  <main>
-  <main>
+  <main class="flex-elem flex-column bg-general pt-3">
+    <h1 class="h1 text-center">Select your tickets</h1>
+    <div class="flex-elem rounded-pill border w-50 justify-content-center align-self-center py-1">
+      <p class="h5"><span class="c-orange">Step 1:</span>Choose your trip</p>
+    </div>
+    <section class="w-100 d-flex align-self-center bg-general py-3 border-bottom">
+    <table class="container table table-bordered w-50">
+  <thead>
+    <tr>
+      <th scope="col" class="text-center"></th>
+      <th scope="col" class="text-center">1-day-ticket</th>
+      <th scope="col" colspan="2" class="text-center">2-day-ticket</th>
+      <th scope="col" class="text-center">Ticket for premium-member</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="text-center">Date</th>
+      <td class="text-center">15 Oct.</td>
+      <td class="text-center">16 Oct.</td>
+      <td class="text-center">15-16 Oct</td>
+      <td class="text-center">15-16 Oct</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-center">Normal</th>
+      <td class="c-orange text-center">$1,000<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$1,000<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$1,500<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$0<br><input type="radio" name="option" value="1"></td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-center">Students</th>
+      <td class="c-orange text-center">$750<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$750<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$1,200<br><input type="radio" name="option" value="1"></td>
+      <td class="c-orange text-center">$0<br><input type="radio" name="option" value="1"></td>
+    </tr>
+  </tbody>
+  </table>
+</section>
+<section class="d-flex flex-column bg-white pt-3">
+  <p class="h2 text-center">Select your breakfast</p>
+  <div class="flex-elem rounded-pill border w-50 justify-content-center align-self-center py-1 my-2">
+    <p class="h5"><span class="c-orange">Step 2:</span>Choose a menu</p>
+  </div>
+  <div class="flex-elem justify-content-center w-50 border mt-3 align-self-center flex-wrap bg-white">
+    <p class="w-100 text-center h4 bg-general">These are the menus:</p>
+    <div class="d-flex food-menus flex-column flex-sm-row">
+    <p class="mr-3 d-flex flex-md-row flex-column">Mexican<input type="radio" name="breakfast-option" value="2" class="ml-1"></p>
+    <p class="mr-3 d-flex flex-md-row flex-column">American<input type="radio" name="breakfast-option" value="2" class="ml-1"></p>
+    <p class="mr-3 d-flex flex-md-row flex-column">Oriental<input type="radio" name="breakfast-option" value="2" class="ml-1"></p>
+    <p class="mr-3 d-flex flex-md-row flex-column">Italian<input type="radio" name="breakfast-option" value="2" class="ml-1"></p>
+  </div>
+  </div>
+  <button type="button" name="button" class="btn bg-orange text-light align-self-center my-3 text-uppercase">Submit</button>
+</section>
+  </main>
   <footer class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
     <div class="col d-flex justify-content-center">
     <a href="#"><img src="..\assets\images\my-logo.png" alt="Main logo" class="logo-sizing"></a>

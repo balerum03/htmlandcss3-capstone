@@ -9,6 +9,10 @@
   color: #d3d3d3;
 }
 
+.bg-general {
+  background: #f7f7f7;
+}
+
 .bg-dark-gray {
   background: #3e3e3e;
 }
@@ -19,6 +23,10 @@
 
 .c-orange {
   color: #ec5242;
+}
+
+.bg-orange {
+  background: #ec5242;
 }
 
 .top-color {
@@ -41,4 +49,13 @@
 
 a:hover {
   color: #ec5242;
+}
+
+.flex-elem {
+  display: flex;
+}
+
+.food-menus {
+  margin-top: 0.5rem;
+  padding-bottom: 2rem;
 }
