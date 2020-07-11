@@ -1,0 +1,44 @@
+.ham-menu-icon {
+  fill: #272a31;
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem 0 0 2rem;
+}
+
+.c-light-gray {
+  color: #d3d3d3;
+}
+
+.bg-dark-gray {
+  background: #3e3e3e;
+}
+
+.c-dark-gray {
+  color : #3e3e3e;
+}
+
+.c-orange {
+  color: #ec5242;
+}
+
+.top-color {
+  color: white;
+}
+
+.logo-sizing {
+  height: auto;
+  max-width: 12rem;
+}
+
+.login-btn {
+  border: 0.3rem solid #ec5242;
+}
+
+.login-btn:hover {
+  color: white;
+  background: #ec5242;
+}
+
+a:hover {
+  color: #ec5242;
+}
