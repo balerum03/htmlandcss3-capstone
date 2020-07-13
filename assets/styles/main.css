@@ -51,11 +51,44 @@ a:hover {
   color: #ec5242;
 }
 
-.flex-elem {
-  display: flex;
-}
-
 .food-menus {
   margin-top: 0.5rem;
   padding-bottom: 2rem;
+}
+
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-spacing {
+  margin-top: 5rem;
+}
+
+.about-images1 {
+  background-image: url("../images/about-image1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.about-images2 {
+  background-image: url("../images/about-image2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.partner-section {
+  height: 15rem;
+}
+
+.partner-image {
+  max-height: 40px;
+}
+
+.day-image {
+  height: 150px;
+  width: 150px;
 }
