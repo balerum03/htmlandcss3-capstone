@@ -1,3 +1,8 @@
+*,
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .ham-menu-icon {
   fill: #272a31;
   height: 2rem;
