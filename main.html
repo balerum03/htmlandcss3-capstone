@@ -11,15 +11,15 @@
 <body>
   <header>
     <nav class="">
-      <a href="#" class="d-block d-sm-block d-md-none">
-      <svg viewBox="0 0 16 16" class="bi bi-list ham-menu-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <a href="#" class="d-block d-sm-block d-md-none position-absolute">
+      <svg viewBox="0 0 16 16" class="bi bi-list ham-menu-icon position-absolute" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
       </svg></a>
       <!-- top navbar with social media -->
       <div class="d-none d-sm-none d-md-flex w-100 bg-dark-gray flex-md-column">
         <div class="w-75 aling-self-right d-flex justify-content-end align-self-center">
           <a href="#" class="mx-2 py-1 top-color">Facebook</a>
-          <a href="#" class="mx-2 py-1 top-color">Twiter</a>
+          <a href="#" class="mx-2 py-1 top-color">Twitter</a>
           <a href="#" class="mx-2 py-1 top-color">English</a>
           <a href="#" class="mx-2 py-1 top-color">My page</a>
           <a href="#" class="ml-2 py-1 top-color">Logout</a>
@@ -34,8 +34,8 @@
           <ul class="d-flex justify-content-between">
             <li><a href="#" class="c-dark-gray"> Home</a></li>
             <li><a href="#" class="c-dark-gray"> Trips</a></li>
-            <li><a href="#" class="c-dark-gray"> Tickets</a></li>
-            <li><a href="#" class="c-orange"> About</a></li>
+            <li><a href="html-pages\tickets.html" class="c-dark-gray"> Tickets</a></li>
+            <li><a href="html-pages\about.html" class="c-orange"> About</a></li>
           </ul>
         </div>
         <div class="d-flex align-self-center w-25 justify-content-center">
@@ -45,53 +45,88 @@
     </nav>
   </header>
   <main class="d-flex flex-column justify-content-center">
-    <section class="bg-dark-gray d-flex justify-content-center">
-      <div class="">
-        <img src="assets\images\food-icon.png" alt="" class="experience-icons">
-        <p class="c-orange">Food</p>
-        <p class="text-white">Come join us for breakfast with one of our delicious menus</p>
-      </div>
-      <div class="">
-        <img src="assets\images\pictures-icon.png" alt="" class="experience-icons">
-        <p class="c-orange">Photos</p>
-        <p class="text-white">Take beautiful pictures with the best guidance possible</p>
-      </div>
-      <div class="">
-        <img src="assets\images\social-icon.png" alt="" class="experience-icons">
-        <p class="c-orange">Socialize</p>
-        <p class="text-white">Meet people and chat about your passion (taking beautiful pictures)</p>
-      </div>
-      <div class="">
-        <img src="assets\images\relax-icon.png" alt="" class="experience-icons">
-        <p class="c-orange">Relax</p>
-        <p class="text-white">it's just impossible not to relax with the beautiful landscape</p>
+    <section class="cover-section w-100 d-flex align-items-center my-0">
+      <img src="assets\images\main-image.jpg" alt="main image for cover" class="position-absolute img-fluid w-100 main-image">
+      <div class="cover-text">
+      <h1 class="c-orange my-3 h1 m-4">Our next trip</h1>
+      <p class="m-4 border p-3 cover-content font-weight-bold">After 5 months of work and a year of planning, Michael Shainblum and I are proud to announce our new online photography course ‘Milky Way Made Easy‘. This project has been a labour of love for both of us with Milky Way processing tutorials as well as ‘in-field’ tutorials showing how we get the shot.</p>
+      <p class="h3 m-4">10/15/20-10/16/20</p>
       </div>
     </section>
-    <h1 class="h3 c-dark-gray border-button text-center">The next trip</h1>
-    <section class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
-      <div class="d-flex flex-wrap">
+    <p class="h3 bg-dark-gray text-white m-0 py-4 text-center">The Experience</p>
+    <section class="bg-dark-gray d-flex justify-content-center w-100 flex-column flex-md-row">
+      <div class="py-4 icon-section bg-icons my-4">
+        <img src="assets\images\food-icon.png" alt="" class="experience-icons">
+        <div class="d-flex flex-row flex-md-column w-75">
+        <p class="c-orange text-center mx-2">Food</p>
+        <p class="text-white text-center">Come join us for breakfast with one of our delicious menus</p>
+        </div>
+      </div>
+      <div class="py-4 icon-section bg-icons my-4">
+        <img src="assets\images\pictures-icon.png" alt="" class="experience-icons">
+        <div class="d-flex flex-row flex-md-column w-75">
+        <p class="c-orange text-center mx-2">Photos</p>
+        <p class="text-white text-center">Take beautiful pictures with the best guidance possible</p>
+        </div>
+      </div>
+      <div class="py-4 icon-section bg-icons my-4">
+        <img src="assets\images\social-icon.png" alt="" class="experience-icons">
+        <div class="d-flex flex-row flex-md-column w-75">
+        <p class="c-orange text-center mx-2">Socialize</p>
+        <p class="text-white text-center">Meet people and chat about your passion</p>
+      </div>
+      </div>
+      <div class="py-4 icon-section bg-icons my-4">
+        <img src="assets\images\relax-icon.png" alt="" class="experience-icons">
+        <div class="d-flex flex-row flex-md-column w-75">
+        <p class="c-orange text-center mx-2">Relax</p>
+        <p class="text-white text-center">it's just impossible not to relax with the beautiful landscape</p>
+      </div>
+      </div>
+    </section>
+    <h3 class="h3 c-dark-gray border-button text-center">The next trip</h3>
+    <section class="row row-cols-lg-2 col-12 py-4 next-trip d-flex justify-content-center">
+      <div class="d-flex p-3 col-12 col-lg-5">
         <img src="assets\images\day1.jpg" alt="day 1" class="day-image">
+        <div class="pl-3">
+        <p class="h5 c-orange">Day 1</p>
         <p class="">We begin the day with an easy 1 hour hike to the most bizzare landscape you’ll ever witness. The trail to Sørvágsvatn doesn’t require a huge effort and is mostly gentle slopes. The reward is a huge vista that challenges your sense of perspective.</p>
+        </div>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex p-3 col-12 col-lg-5">
         <img src="assets\images\day2.jpg" alt="day 2" class="day-image">
-        <p class="">We take the ferry to Kalsoy Island and then enjoy a 30 minute hike to the lighthouse on the cliffs. This is the perfect opportunity to shoot a huge panorama.</p>
+        <div class="pl-3">
+          <p class="h5 c-orange">Day 2</p>
+          <p class="">We take the ferry to Kalsoy Island and then enjoy a 30 minute hike to the lighthouse on the cliffs. This is the perfect opportunity to shoot a huge panorama.</p>
+        </div>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex p-3 days-section col-12 col-lg-5">
         <img src="assets\images\day3.jpg" alt="day 3" class="day-image">
-        <p class="">Saksun is a village near the northwest coast of the Faroese island of Streymoy. Surrounded by waterfall covered cliffs, this lush green valley is a photographers dream.</p>
+        <div class="pl-3">
+          <p class="c-orange h5">Day 3</p>
+          <p class="">Saksun is a village near the northwest coast of the Faroese island of Streymoy. Surrounded by waterfall covered cliffs, this lush green valley is a photographers dream.</p>
+        </div>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex p-3 days-section col-12 col-lg-5">
         <img src="assets\images\day4.jpg" alt="day 4" class="day-image">
-        <p class="">As the Southern most Island in the Faroe Islands, Suðuroy requires a two hour ferry ride so we’ll be spending the whole day exploring the dramatic cliffs with it’s interplay of light coming from the West.</p>
+        <div class="pl-3">
+          <p class="h5 c-orange">Day 4</p>
+          <p class="">As the Southern most Island in the Faroe Islands, Suðuroy requires a two hour ferry ride so we’ll be spending the whole day exploring the dramatic cliffs with it’s interplay of light coming from the West.</p>
+        </div>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex p-3 days-section col-12 col-lg-5">
         <img src="assets\images\day5.jpg" alt="day 5" class="day-image">
-        <p class="">On day 5 we’ll repeat the same shoots as day 1 but in the reverse order. This gives us the chance to catch the light from the opposite direction which can drastically effect the scene.</p>
+        <div class="pl-3">
+          <p class="h5 c-orange">Day 5</p>
+          <p class="">On day 5 we’ll repeat the same shoots as day 1 but in the reverse order. This gives us the chance to catch the light from the opposite direction which can drastically effect the scene.</p>
+        </div>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex p-3 days-section col-12 col-lg-5">
         <img src="assets\images\day6.jpg" alt="day 6" class="day-image">
-        <p class="">On our final Day of shooting, we devote the entire day to chasing down some epic sea stacks. This involves a 1.5 hour hike over rough terrain but isn’t very steep. The views are amazing and totally worth the effort.</p>
+        <div class="pl-3">
+          <p class="h5 c-orange">Day 6</p>
+          <p class="">On our final Day of shooting, we devote the entire day to chasing down some epic sea stacks. This involves a 1.5 hour hike over rough terrain but isn’t very steep. The views are amazing and totally worth the effort.</p>
+        </div>
       </div>
     </section>
     <section>

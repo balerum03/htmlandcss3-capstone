@@ -29,6 +29,10 @@
   background: #ec5242;
 }
 
+.bg-icons {
+  background: #3e4148;
+}
+
 .top-color {
   color: white;
 }
@@ -96,4 +100,50 @@ a:hover {
 .experience-icons {
   height: 50px;
   width: 50px;
+}
+
+.next-trip {
+  width: 100%;
+}
+
+.days-section {
+  width: 500px;
+}
+
+.cover-section {
+    min-height: 800px;
+}
+
+.cover-text {
+  margin: 0 auto;
+}
+
+.cover-content {
+  max-width: 700px;
+  font-size: 1.15rem;
+}
+
+.main-image {
+  opacity: 0.3;
+  height: 800px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width:768px) {
+  .icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin: 0 2.5rem 0 2.5rem;
+  }
 }
