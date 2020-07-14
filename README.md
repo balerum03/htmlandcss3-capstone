@@ -2,11 +2,11 @@
 
 > This project is based on a design given by Cindy Shin in Behance the goal was to use the design but with my own content and at the same time I had to use Flexbox and some other tools to create this page and show that I know how to use them properly.
 
-![screenshot](/assets/images/capture1.PNG)
+![screenshot](https://raw.githubusercontent.com/balerum03/htmlandcss3-capstone/dev-cap/assets/images/capture1.png?raw=true)
 
-![screenshot](/assets/images/capture2.PNG)
+![screenshot](https://raw.githubusercontent.com/balerum03/htmlandcss3-capstone/dev-cap/assets/images/capture2.png?raw=true)
 
-![screenshot](/assets/images/capture3.PNG)
+![screenshot](https://raw.githubusercontent.com/balerum03/htmlandcss3-capstone/dev-cap/assets/images/capture1.png?raw=true)
 
 Live demo link : [live link](https://raw.githack.com/balerum03/htmlandcss3-capstone/dev-cap/main.html)
 
