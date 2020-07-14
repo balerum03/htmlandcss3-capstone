@@ -1,0 +1,154 @@
+*,
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.ham-menu-icon {
+  fill: #272a31;
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem 0 0 2rem;
+}
+
+.c-light-gray {
+  color: #d3d3d3;
+}
+
+.bg-general {
+  background: #f7f7f7;
+}
+
+.bg-dark-gray {
+  background: #3e3e3e;
+}
+
+.c-dark-gray {
+  color: #3e3e3e;
+}
+
+.c-orange {
+  color: #ec5242;
+}
+
+.bg-orange {
+  background: #ec5242;
+}
+
+.bg-icons {
+  background: #3e4148;
+}
+
+.top-color {
+  color: white;
+}
+
+.logo-sizing {
+  height: auto;
+  max-width: 12rem;
+}
+
+.login-btn {
+  border: 0.3rem solid #ec5242;
+}
+
+.login-btn:hover {
+  color: white;
+  background: #ec5242;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.food-menus {
+  margin-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-spacing {
+  margin-top: 5rem;
+}
+
+.about-images1 {
+  background-image: url("../images/about-image1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.about-images2 {
+  background-image: url("../images/about-image2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.partner-section {
+  height: 15rem;
+}
+
+.partner-image {
+  max-height: 40px;
+}
+
+.day-image {
+  height: 150px;
+  width: 150px;
+}
+
+.experience-icons {
+  height: 50px;
+  width: 50px;
+}
+
+.next-trip {
+  width: 100%;
+}
+
+.days-section {
+  width: 500px;
+}
+
+.cover-section {
+  min-height: 800px;
+}
+
+.cover-text {
+  margin: 0 auto;
+}
+
+.cover-content {
+  max-width: 700px;
+  font-size: 1.15rem;
+}
+
+.main-image {
+  opacity: 0.3;
+  height: 800px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin: 0 2.5rem 0 2.5rem;
+  }
+}
